@@ -3,8 +3,7 @@
 This is a maven project example of a possible aproach to implenent the IEC 62325-504 standard using 
 Red Electrica de España library - https://www.ree.es/es/.
 
-NEW IT COMMUNICATIONS STANDARD DEVELOPED BY REE (IEC TS 62325-504:2015)
-
+REE release information (IEC TS 62325-504:2015)
 https://www.esios.ree.es/en/operation-headlines/new-communications-standard-iec-ts-62325-504-2015
 
 ## Dependencies 
