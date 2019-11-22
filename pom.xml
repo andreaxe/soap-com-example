@@ -116,7 +116,7 @@
                                           <addClasspath>true</addClasspath>
                                           <classpathPrefix>lib/</classpathPrefix>
                                           <!-- A jar creation for the Server implementation -->
-                                          <mainClass>com.example.tdxassist.demo.server.Request</mainClass>
+                                          <mainClass>com.example.tdxassist.demo.server.Main</mainClass>
                                     </manifest>
                               </archive>
                         </configuration>

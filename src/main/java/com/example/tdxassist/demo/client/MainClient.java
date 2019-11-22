@@ -34,7 +34,7 @@ class Client extends ParentClient {
 public class MainClient {
 
     /**
-     * Example: build your request message
+     * Example: This method builds your request message
      * @return RequestMessage
      */
     static RequestMessage request() throws JAXBException, IOException, CryptoException, ParserConfigurationException,
