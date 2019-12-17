@@ -17,6 +17,8 @@ import java.io.IOException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created by INESCTEC
@@ -78,6 +80,11 @@ public class MainClient {
 
         // get requestMessage object
         RequestMessage requestMessage = request();
+
+        // Inform the type of request to server deal with it correctly
+        Map<String, String> options  = new HashMap<String, String>();
+        options.put(EnumFilterElement.DATA_TYPE.toString(), "RequestReactivePowerSetpoint");
+        requestMessage = MessageUtil.createRequestWithOptions(EnumVerb.CREATE, EnumNoun.ANY, options);
 
         // Verify message
         System.out.println(XMLElementUtil.object2StringBuilder(requestMessage));
